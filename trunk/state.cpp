@@ -46,7 +46,9 @@ void State::reset()
 */
 
 /**
-  * Number of misplaced Tiles. 0 is the Best value and PUZZLE_BOARD_WIDTH * PUZZLE_BOARD_HEIGHT is the worst.
+  * Anzahl der falsch stehenden Nummer (siehe Spielregel).
+  * 0 ist die beste Möglichkeit da dann alle Steine am richtigen Platz stehen
+  * PUZZLE_BOARD_WIDTH * PUZZLE_BOARD_HEIGHT ist die schlechteste Möglichkeit.
   */
 unsigned State::valueFuncNumBadTiles()const
 {
