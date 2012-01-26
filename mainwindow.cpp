@@ -4,6 +4,9 @@
 using namespace std;
 
 /**
+  * Hier wird die GUI für das Spiel erzeugt.
+  *
+  *
   * MainWindow Constructor
   */
 MainWindow::MainWindow()
