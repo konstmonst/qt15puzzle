@@ -39,7 +39,7 @@ static struct LessValueClass
 } LessValue;
 
 /**
-  * This is a comparator for States so that we can find closed states fast. For that I defined an
+  * This is a comparator for States so that we can find closed states fast. For that we defined an
   * Order of States so the can be sorted and searched in a binary tree.
   */
 struct StateOrdering
@@ -75,7 +75,7 @@ void SolverThread::startSolving(std::vector<State>* solution, State s)
 }
 
 /**
-  * A* Solver for fifteen puzzle.
+  * A* Lösung für 15-Puzzle.
   */
 void SolverThread::_solveAStar()
 {
