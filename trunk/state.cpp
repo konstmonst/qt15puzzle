@@ -105,7 +105,7 @@ bool State::operator==(const State& other)const
 */
 
 /**
-  *    Returns next possible states for a current state.
+  * Gibt den nächst möglichen Zustand von dem aktuellen Stand aus.
   */
 void State::getNextPossibleStates(vector<State>& results)const
 {
@@ -145,7 +145,7 @@ void State::getNextPossibleStates(vector<State>& results)const
 }
 
 /**
-  * Randomly permutes the State.
+  * Zufällige Permutation der Zustände.
   */
 void State::randomize(unsigned times)
 {
@@ -159,7 +159,7 @@ void State::randomize(unsigned times)
 }
 
 /**
-  * Printer function, usefull for debugging.
+  * Printer function: Hilfreich bei dem Debuging.
   */
 std::ostream& operator<<(std::ostream& out, const State& state)
 {
