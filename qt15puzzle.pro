@@ -1,6 +1,6 @@
 TEMPLATE = app
-CONFIG += qt \
-    thread
+QT += widgets
+CONFIG += qt thread
 SOURCES += main.cpp \
     mainwindow.cpp \
     puzzlewidget.cpp \

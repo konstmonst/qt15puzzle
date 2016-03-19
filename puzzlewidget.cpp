@@ -1,6 +1,7 @@
 #include <QtDebug>
 #include <QtGlobal>
 #include <QLayoutItem>
+#include <QDrag>
 #include "puzzlewidget.h"
 
 #include <iostream>
